@@ -7,21 +7,21 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
+Here’s an updated version of the **README** file based on your latest requirements:
+
+---
+
 # Recipe Finder Application
 
-This project is designed to help users like **Taylor**, a busy professional, easily find recipes based on their available ingredients, cooking preferences, and time constraints. The application uses **TheMealDB API** to suggest recipes that match the user's needs, making it easier to plan meals and cook delicious dishes with minimal effort.
+This project helps busy professionals like **Taylor** quickly find recipes based on the ingredients they have at home. The app uses **TheMealDB API** to suggest recipes that can be made with those ingredients, making meal planning easier and faster.
 
 ## Features
 
-- **Search Recipes by Ingredients**: Users can search for recipes by entering the ingredients they have available at home. The app will suggest recipes that can be made with those ingredients.
-- **Mood-Based Search**: Based on what the user feels like eating, the app can suggest different types of meals (e.g., vegan, vegetarian, dessert).
-- **Time-Based Search**: Users can input the time they have for cooking, and the app will suggest quick meals or recipes that fit within the time constraint.
-- **Exclusion of Ingredients**: The app allows users to filter out certain ingredients they do not want to include in their recipes, catering to dietary preferences or restrictions.
+- **Search Recipes by Ingredients**: Enter ingredients you have available, and the app will suggest recipes that can be made with those ingredients.
 
 ## Tech Stack
 
 - **Frontend**: React.js
-- **Backend**: Node.js (optional, if required for API handling)
 - **API**: TheMealDB API - A free API providing information about meals and recipes based on ingredients.
 - **Styling**: Styled-components (for React component styling)
 
@@ -48,7 +48,7 @@ yarn install
 
 ### 3. Set Up API
 
-The app relies on TheMealDB API to fetch recipes. No API key is required for this project.
+The app relies on **TheMealDB API** to fetch recipes. No API key is required for this project.
 
 ### 4. Start the Development Server
 
@@ -67,9 +67,6 @@ The app will be running on [http://localhost:3000](http://localhost:3000).
 Once the application is running, you can:
 
 - **Enter Ingredients**: Type in the ingredients you have (e.g., chicken, tomatoes, etc.) and click the search button to view relevant recipes.
-- **Filter by Mood**: Use mood-based filters like "Vegetarian", "Dessert", or "Quick" to narrow down recipe suggestions.
-- **Exclude Ingredients**: If there are ingredients you do not want to use, you can filter them out of the results.
-- **Set Cooking Time**: Specify how much time you have, and the app will suggest recipes that can be made in that time frame.
 
 ## API Reference
 
@@ -81,9 +78,9 @@ Replace `{ingredient}` with the ingredient you want to search for (e.g., `chicke
 
 ## Future Enhancements
 
-- **User Authentication**: Allow users to save their favorite recipes and preferences for a more personalized experience.
-- **Meal Planning**: Add a feature to create weekly meal plans based on the user's preferences and ingredient availability.
-- **Recipe Rating and Comments**: Enable users to rate recipes and leave feedback.
+- **User Authentication**: Allow users to save their favorite recipes for easy access.
+- **Meal Planning**: Add a feature to create weekly meal plans based on the user's ingredients.
+- **Recipe Rating and Comments**: Enable users to rate and review recipes.
 
 ## Contributing
 
@@ -97,4 +94,8 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ### Notes for Taylor (User Persona)
 
-This app is designed with you in mind! As a busy professional, you can quickly find recipes based on the ingredients you have at home or your current mood and time constraints. No more wasting time searching for meals—let the app do the work for you!
+This app is designed with you in mind! As a busy professional, you can quickly find recipes based on the ingredients you have at home. No more wasting time searching for meals—let the app do the work for you!
+
+---
+
+This version excludes the mood-based, time-based, and ingredient exclusion features and assumes you are only using the frontend with **TheMealDB API**.
